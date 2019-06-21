@@ -36,6 +36,9 @@ a {
 	border-bottom: 2px solid transparent;
 	
 }
+a:hover {
+  border-color: white
+}
 
 main {
 	width: 850px;
@@ -63,20 +66,6 @@ img {
 
 }
 
-
-footer {
-	text-transform: uppercase;
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: #0D2C40;
-	color: white;
-	font-size: 14px;
-	letter-spacing: .08em;
-	font-weight: 500;
-
-
-}
-
 .copyright {
 	font-family: Raleway;
 	float: left;
@@ -100,6 +89,15 @@ font-size: 0;
 	color: #F15B31;
 	font-weight: 700;
 }
-a:hover {
-	border-color: white;
+
+
+footer {
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
 }
