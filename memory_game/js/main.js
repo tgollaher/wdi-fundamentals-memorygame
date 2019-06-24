@@ -62,7 +62,7 @@ var createBoard = function() {
 		cardElement.setAttribute('src', "images/back.png");
 		cardElement.setAttribute('data-id', i);
 		document.getElementById('game-board').appendChild(cardElement);
-		cardElement.addEventListener('click', flipCard());
+		cardElement.addEventListener('click', flipCard);
 		
 	}
 };
